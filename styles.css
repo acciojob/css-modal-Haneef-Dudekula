@@ -1,1 +1,34 @@
-/*  your css code here. If applicable */
+.modal{
+	display:none;
+	background-color:#707170;
+	width:100vw;
+	height:100vh;
+	top:0;
+	left:0;
+	/* z-index:1; */
+	position: fixed;
+	overflow:auto;
+}
+.modal-content{
+	background-color:#F6F7F6;
+	margin:10%;
+}
+.modal-header{
+	background-color:#4DAA4C;
+	color:white;
+	padding:1px;
+	margin:15px;
+}
+.modal-body{
+	display:flex;
+	justify-content:space-between;
+	margin-right: 15px; 
+	margin-left: 15px; 
+	
+}
+
+.closeTab {
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+}
