@@ -1,6 +1,6 @@
 const openButton = document.getElementById("openModal");
 const modal = document.querySelector(".modal")
-const closeButton = document.querySelector(".closeTab")
+const closeButton = document.querySelector(".close-modal")
 	
 openButton.onclick = () => {
   modal.style.display = "block";
